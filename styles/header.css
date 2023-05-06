@@ -1,0 +1,43 @@
+header {
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: row-reverse;
+    /* background-color: #86C323; */
+}
+
+.home, .about-me, .study {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 14px;
+    margin-top: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    border: solid 3px #FFFFFF;
+    background-color: rgba(0,0,0,0);
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.home:hover {
+    color: black;
+    background-color: white;
+}
+
+.home:visited, .about-me:visited, .study:visited {
+    text-decoration: none;
+}
+
+.home:active, .about-me:active, .study:active {
+    background-color:rgba(255, 255, 255, 0.6);
+    color: black;
+    border-color: rgba(255, 255, 255, 0.6);
+}
+
+.home img {
+    height: 40px;
+}

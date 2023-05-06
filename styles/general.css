@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+    background-image: url(wallpaper/city.jpg);
+    background-size: 1080px 720px;
+    height: 100%;
+    font-family: archivo, arial;
+}
+
+a, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: white;
+}
